@@ -6,9 +6,17 @@
     background: linear-gradient(to right, #002853 , #040C18);
 }
 
+.row {
+    margin: 0;
+}
+
 .nav-link {
     color: #fff;
+    margin-right: 54px;
+}
 
+.nav-link:hover {
+    color: #fff;
 }
 
 .btn11 {
@@ -23,4 +31,17 @@
     font-family: "Manrope", sans-serif;
     background: #FF4820;
     color: #fff;
+}
+.header1 {
+    background: -webkit-linear-gradient(to right, #AE67FA, #F49867);
+    background: -moz-linear-gradient(to right, #AE67FA, #F49867);
+    background: linear-gradient(to right, #AE67FA, #F49867);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 51px;
+    font-weight: 900;
+}
+
+.para {
+    color: #81AFDD;
 }
