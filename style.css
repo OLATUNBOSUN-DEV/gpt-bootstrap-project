@@ -15,7 +15,12 @@
     color: #fff;
 }
 
-.btn12 {
+.nav-btn {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+    padding: 7px 14px;
+    font-family: "Manrope", sans-serif;
     background: #FF4820;
     color: #fff;
 }
