@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+* {
+    font-family: "Manrope", sans-serif;
+}
+.mybody {
+    background: linear-gradient(to right, #002853 , #040C18);
+}
+
+.nav-link {
+    color: #fff;
+
+}
+
+.btn11 {
+    color: #fff;
+}
+
+.btn12 {
+    background: #FF4820;
+    color: #fff;
+}
