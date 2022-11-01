@@ -12,7 +12,7 @@
 
 .nav-link {
     color: #fff;
-    margin-right: 54px;
+    margin-right: 50px;
 }
 
 .nav-link:hover {
@@ -23,7 +23,11 @@
     color: #fff;
 }
 
-.nav-btn {
+.btn12 {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.nav-btn,.btn12 {
     outline: none;
     box-shadow: none;
     border: 0;
@@ -32,16 +36,51 @@
     background: #FF4820;
     color: #fff;
 }
+
 .header1 {
     background: -webkit-linear-gradient(to right, #AE67FA, #F49867);
     background: -moz-linear-gradient(to right, #AE67FA, #F49867);
     background: linear-gradient(to right, #AE67FA, #F49867);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 51px;
+    font-size: 40px;
     font-weight: 900;
 }
 
 .para {
     color: #81AFDD;
+    font-size: 12px;
+}
+
+.img1 {
+    width: 450px;
+    position: relative;
+    margin-top: -60px;
+    margin-left: -60px;
+}
+
+.navimg {
+    width: 40px;
+}
+
+.form-control {
+    background: #052D56;
+    color: #3D6184;
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: none;
+}
+
+.imgf {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.paraf {
+    color: #fff;
+    font-size: 10px;
+    
+}
+
+.box {
+    display: flex;
 }
