@@ -24,10 +24,16 @@
 }
 
 .btn12 {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+    padding: 12px;
+    background: #FF4820;
+    color: #fff;
     border-radius: 0px 5px 5px 0px;
 }
 
-.nav-btn,.btn12 {
+.nav-btn {
     outline: none;
     box-shadow: none;
     border: 0;
@@ -63,11 +69,14 @@
     width: 40px;
 }
 
-.form-control {
+.form1 {
     background: #052D56;
     color: #3D6184;
     border-radius: 5px 0px 0px 5px;
+    outline: none;
     box-shadow: none;
+    border: 0;
+    padding: 12px;
 }
 
 .imgf {
@@ -83,4 +92,50 @@
 
 .box {
     display: flex;
+}
+
+.section-brand {
+    text-align: center;
+}
+
+.section-brand img {
+    width: 8%;
+    margin: 0 20px 0 0;
+}
+
+.img-sec {
+    margin: 50px 0;
+}
+
+.what-gpt {
+    background: -webkit-linear-gradient(to bottom right, #0F42, #1B78De);
+    background: -moz-linear-gradient(to bottom right, #0F42, #1B78De);
+    background: linear-gradient(to bottom right, #0F42, #1B78De);
+    padding: 50px 20px;
+}
+
+.gpt {
+    color: #81AFDD;
+}
+
+.hee {
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.heed {
+    color: #FF8A71;
+}
+
+.head5 {
+    color: #FFFFFF;
+    font-family: 'Manrope';
+    font-weight: 900;
+}
+
+.para5 {
+    color: #81AFDD;
 }
